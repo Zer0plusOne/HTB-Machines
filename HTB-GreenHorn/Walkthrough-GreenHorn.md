@@ -103,9 +103,9 @@ Retrieve the \`root.txt\` flag.
 **MACHINE COMPLETED**
 
 > [!IMPORTANT]  
-> Please use this as a hint or guide if you're blocked at some point of this machine, i make this files for myself and to help some friends that are also doing those machines.
+> **Please use this as a hint or guide if you're blocked at some point of this machine, i make those files for myself and to help some friends that are also doing those machines.**
 
 
 > [!NOTE]  
-> Try to get as far as you can by yourself or you will never learn to make machines alone. Hope you the best and happy hacking <3.
+> **Try to get as far as you can by yourself or you will never learn to make machines alone. Hope you the best and happy hacking <3.**
 
