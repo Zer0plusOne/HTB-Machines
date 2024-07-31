@@ -11,7 +11,7 @@ nmap -sC -sV -n -Pn --min-rate 300 -vvv
 **RESULT:**
 
 ```cpp
-OpenPorts: 22/TCP	SSH
+OpenPorts: 	   22/TCP	SSH
 		   80/TCP	HTTP
 		   3000/TCP	ppp?
 ```
@@ -101,11 +101,11 @@ Use the password obtained to escalate to root.
 Retrieve the \`root.txt\` flag.
 
 **MACHINE COMPLETED**
-```
+
 > [!IMPORTANT]  
 > Please use this as a hint or guide if you're blocked at some point of this machine, i make this files for myself and to help some friends that are also doing those machines.
-```
-```
+
+
 > [!NOTE]  
 > Try to get as far as you can by yourself or you will never learn to make machines alone. Hope you the best and happy hacking <3.
-```
+
