@@ -105,7 +105,7 @@ Check the kernel version for known vulnerabilities:
 uname  -r
 ```
 
-For this machine, [CVE-2021-3493](https://github.com/briskets/CVE-2021-3493/tree/main) so you just have to get into the repository and follow the steps to take advantage of this vector.
+This machine results vulnerable to [CVE-2021-3493](https://github.com/briskets/CVE-2021-3493/tree/main) so you just have to get into the repository and follow the steps to take advantage of this vector.
   
 
 On your local machine open a simple http server with python so you can send the file to the target:
