@@ -6,7 +6,7 @@
 > [!IMPORTANT]
 > **Please use this as a hint or guide if you're blocked at some point of this machine. I make these files for myself and to help some friends that are also doing these machines.**
 
----
+
 
 > [!NOTE]
 > **Try to get as far as you can by yourself or you will never learn to solve machines alone. Hope you the best and happy hacking <3.**
